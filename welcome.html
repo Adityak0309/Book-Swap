@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | BookSwap</title>
+    <link rel="stylesheet" href="welcome.css">
+    <script src="welcome.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">📚 BookSwap</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Show All Books</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Add Book</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Welcome to BookSwap, <span id="username">Reader!</span></h1>
+        <p>Find books, swap, and grow your collection!</p>
+    </header>
+
+    <!-- Suggested Books -->
+    <section class="suggestions">
+        <h2>📌 Personalized Suggestions for You</h2>
+        <div class="books-container">
+            <div class="book-card">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>The Alchemist</h3>
+                <p>by Paulo Coelho</p>
+            </div>
+            <div class="book-card">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Atomic Habits</h3>
+                <p>by James Clear</p>
+            </div>
+            <div class="book-card">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>The Subtle Art of Not Giving a F*ck</h3>
+                <p>by Mark Manson</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Available Books -->
+    <section class="available-books">
+        <h2>📚 Available Books to Swap</h2>
+        <div class="books-container">
+            <div class="book-card">
+                <img src="book4.jpg" alt="Book 4">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>by Robert Kiyosaki</p>
+            </div>
+            <div class="book-card">
+                <img src="book5.jpg" alt="Book 5">
+                <h3>1984</h3>
+                <p>by George Orwell</p>
+            </div>
+            <div class="book-card">
+                <img src="book6.jpg" alt="Book 6">
+                <h3>Think and Grow Rich</h3>
+                <p>by Napoleon Hill</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Book Section -->
+    <div class="add-book">
+        <button onclick="addBook()">➕ Add Your Book</button>
+    </div>
+
+</body>
+</html>
